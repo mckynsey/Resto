@@ -1,0 +1,186 @@
+
+@font-face {
+    font-family:lemon;
+    src: url(./Lemon.otf);
+}
+@font-face {
+    font-family:cake;
+    src: url(./Cake.otf);
+}
+@font-face {
+    font-family:rami;
+    src: url(./Rami.ttf);
+}
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.resrvation{
+    padding: 10px;
+    background-color: #f4f9ff00;
+    border: solid 1px #f8a03b ;
+    color: #f8a03b;
+}
+.decouvrir{
+    padding: 10px;
+    background-color: #0e172100;
+    border: solid 1px hsl(0, 0%, 100%) ;
+    color: #ffffff;
+
+}
+header { background-image: url("/splashscreen.jpg");
+    background-size : cover;
+    height: 100vh;
+    
+  }
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:lemon;
+}
+
+li{
+    color: white;
+    list-style: none;
+    margin: 0 5px;
+}
+.tutu{
+    font-family: cake;
+    font-size: 50px;
+}
+.centre{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+}
+.p1{
+    font-size: 15px;
+    font-family: lemon;
+}
+.p2{
+    font-size: 50px;
+    font-family: rami;
+}
+main{
+
+}
+
+.back{
+    background-color: #0E1721;
+    padding: 50px 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.histoire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.histoire p{
+    width: 300px;
+    font-family:rami ;
+    font-size: small;
+}
+
+.imgcentre{
+    height: 300px;
+    width: 300px;
+    background-image: url(./table.jpg);
+    background-size: cover;
+    margin: 0 20px;
+    border-radius: 50%;
+}
+h1{
+    color: burlywood;
+    font-size: 15px;
+    margin: 25px 0;
+    text-align: center;
+}
+h3{
+
+    color: burlywood;
+}
+.colghaut h3 , .colghaut h4, .colghaut p , .colgbas h3 , .colgbas h4, .colgbas p{
+    text-align:right ;
+}
+h2 {
+    font-size: 40px;
+}
+h1 {
+    text-align: center;
+    border: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1.6rem;
+  }
+  
+  h1:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 7rem;
+    background: linear-gradient(270deg,
+    rgba(249, 49, 47, 0) 0%,
+    rgb(238, 203, 150) 11%,
+    rgb(238, 203, 150) 25%,
+    rgb(238, 203, 150) 82%,
+    rgba(253, 187, 45, 0) 100%
+  );
+  }
+  .colgbas, .colghaut, .coldhaut, .coldbas{
+    padding: 20px;  
+  }
+  .separateur{
+    width: 0;
+    height: 0;
+    border-left: 100vw solid transparent;
+    border-bottom: 5vw solid #0e1721 ;
+    margin-top: -13.9vw;
+    background-color: #0e172100;
+  }
+  .triangle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 900px 100px 2px;
+    border-color: transparent transparent #363e4163 transparent;
+    transform: rotate(183deg);
+ }
+
+ .triangle1
+ {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #1058ac4d;
+ }
